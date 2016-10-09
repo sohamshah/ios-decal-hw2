@@ -94,7 +94,6 @@
 			isa = PBXGroup;
 			children = (
 				242B96FA1D925BDD00C640FA /* SwiftCalc */,
-				242B970F1D925BDD00C640FA /* SwiftCalcTests */,
 				24D85AFD1D95095800AE8CD8 /* SwiftCalcUITests */,
 				242B96F91D925BDD00C640FA /* Products */,
 			);
@@ -121,6 +120,7 @@
 				242B97021D925BDD00C640FA /* Assets.xcassets */,
 				242B97041D925BDD00C640FA /* LaunchScreen.storyboard */,
 				242B97071D925BDD00C640FA /* Info.plist */,
+				242B970F1D925BDD00C640FA /* SwiftCalcTests */,
 			);
 			path = SwiftCalc;
 			sourceTree = "<group>";
@@ -132,7 +132,7 @@
 				242B97121D925BDD00C640FA /* Info.plist */,
 			);
 			path = SwiftCalcTests;
-			sourceTree = "<group>";
+			sourceTree = SOURCE_ROOT;
 		};
 		242B971B1D925C2500C640FA /* Extensions */ = {
 			isa = PBXGroup;
@@ -586,6 +586,7 @@
 				24D85B041D95095800AE8CD8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
